@@ -1,0 +1,11 @@
+.product-image {
+  animation-name: scale-image;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+  filter: blur(2px);
+}
+@keyframes scale-image {
+  to {
+    transform: scale(1.5);
+  }
+}
